@@ -1,0 +1,80 @@
+html {
+  font-size: 16px;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: sans-serif;
+}
+
+.jopa {
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 5px;
+  max-width: 350px;
+  padding: 5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.header-right {
+  margin-right: 0;
+  margin-left: auto;
+  font-size: 0.7em;
+  color: darkgrey;
+}
+
+.header-left {
+  font-weight: 700;
+  font-size: 0.9em;
+  color: rgb(51, 50, 50);
+}
+
+.rows {
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+
+}
+
+.col-1 {
+  flex-grow: 1;
+}
+
+.col-2 {
+  display: flex;
+  flex-shrink: 0;
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 100px;
+  height: 6px;
+  background-color: silver;
+  border-radius: 8px;
+}
+
+.col-3 {
+  flex-shrink: 0;
+  width: 50px;
+  text-align: right;
+  }
+
+.filling {
+  background-color: crimson;
+  border-radius: 8px;
+}
+
+.filling-small {
+  background-color: crimson;
+}
+
+.filling-large {
+  background-color: green;
+}

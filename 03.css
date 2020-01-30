@@ -1,0 +1,31 @@
+body {
+  max-width: 400px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.news-block {
+  display: flex;
+  border-top: 1px solid darkgrey;
+  padding-top: 15px;
+
+}
+
+.article-preview {
+}
+
+.tags {
+  color: rgb(93, 93, 93);
+  font-size: 0.8em;
+  font-family: sans-serif;
+}
+
+.pic {
+  margin-left: 12px;
+}
+
+.pic img {
+  max-width: 150px;
+}
